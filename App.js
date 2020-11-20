@@ -12,7 +12,7 @@ export default function App() {
 
   const addGoalHandler = goalTitle => {
     if(goalTitle.length === 0) {
-      return;
+      return alert('Enter a goal!');
     }
     setCourseGoals(currentGoals => [...currentGoals, 
       {uid: Math.random().toString(), value: goalTitle}
