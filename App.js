@@ -40,7 +40,7 @@ export default function App() {
           onDelete={removeGoalHandler} 
           title={itemData.item.value} 
         />
-      )} 
+      )}  
       /> 
     </View>
   );

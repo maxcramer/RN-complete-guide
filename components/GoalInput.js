@@ -32,7 +32,6 @@ const GoalInput = props => {
         </View>
       </View>
       </Modal>
-
     );
 };
 
